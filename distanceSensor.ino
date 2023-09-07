@@ -46,7 +46,7 @@ void loop() {
   digitalWrite(TRIG_PIN, LOW);
   delayMicroseconds(2);
   digitalWrite(TRIG_PIN, HIGH);
-  delayMicroseconds(10);
+  delayMicroseconds(100);
   digitalWrite(TRIG_PIN, LOW);
 
   // measure duration of pulse from ECHO pin
